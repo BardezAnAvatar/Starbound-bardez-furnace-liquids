@@ -6,7 +6,7 @@
     "value" : {
       "type" : "image",
       "file" : "/interface/crafting/tabicon_liquid.png",
-      "position" : [76, 297],
+      "position" : [76, 223],
       "zlevel" : 3
     }
   },
@@ -14,11 +14,11 @@
     "op" : "add",
     "path" : "/paneLayout/categories/buttons/-",
     "value" : {
-      "position" : [72, 295],
+      "position" : [72, 221],
       "baseImage" : "/interface/crafting/unselectedTab.png",
       "baseImageChecked" : "/interface/crafting/selectedTab.png",
       "data" : {
-        "filter" : [ "bars", "ingredients" ]
+        "filter" : [ "liquids" ]
       }
     }
   }
