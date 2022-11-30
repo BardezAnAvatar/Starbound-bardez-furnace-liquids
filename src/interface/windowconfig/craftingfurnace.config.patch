@@ -16,7 +16,7 @@
     "value" : {
       "type" : "image",
       "file" : "/interface/crafting/tabicon_coalesce.png",
-      "position" : [114, 223],
+      "position" : [118, 223],
       "zlevel" : 3
     }
   },
