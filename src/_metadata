@@ -1,7 +1,7 @@
 {
   "author" : "Bardez",
   "description" : "This mod does the following:\n[list]\n  [*]Adds a tab to the atomic furnace for molten liquids to and from their solid states",
-  "friendlyName" : "Molten Liquids tab for Furnace",
+  "friendlyName" : "Molten Liquids tabs for Furnace",
   "name" : "bardez_furnace_liquids",
   "tags" : "Crafting and Building|Miscellaneous",
   "version" : "0.1.0"
