@@ -6,7 +6,7 @@
     "value" : {
       "type" : "image",
       "file" : "/interface/crafting/tabicon_liquid.png",
-      "position" : [76, 221], //two lower than 223 because the image is larger
+      "position" : [76, 223],
       "zlevel" : 3
     }
   },
