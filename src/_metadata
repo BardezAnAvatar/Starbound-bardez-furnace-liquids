@@ -1,8 +1,10 @@
 {
   "author" : "Bardez",
-  "description" : "This mod does the following:\n[list]\n  [*]Adds a tab to the atomic furnace for molten liquids to and from their solid states",
+  "description" : "This mod is a useless supplement on its own (microservices meet mods!), but a utility intended to extend the following mods:\n[list]\n  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1318339314]mORE Liquids[/url]\n  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2892477151]Vanilla mORE liquids[/url]\n  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=729480149]Frackin' Universe[/url]\n[/list]\n\nThis mod does the following:\n[list]\n [*] Adds a tab to the furnace for smelting molten liquids from bars\n  [list] [*]Filter category `smelt`[/list]\n [*] Adds a tab to the furnace for coalescing molten liquids to their refined bars\n  [list] [*]Filter category `coalesce`[/list]\n[/list]\n\n\n\n\nBoring Stuff:\n[url=https://github.com/BardezAnAvatar/Starbound-bardez-furnace-liquids]Source on GitHub[/url]",
   "friendlyName" : "Molten Liquids tabs for Furnace",
+  "link" : "steam://url/CommunityFilePage/2895554927",
   "name" : "bardez_furnace_liquids",
-  "tags" : "Crafting and Building|Miscellaneous",
-  "version" : "0.1.0"
+  "steamContentId" : "2895554927",
+  "tags" : "Crafting and Building",
+  "version" : "1.0.0"
 }
