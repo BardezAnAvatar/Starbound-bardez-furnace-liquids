@@ -2,11 +2,21 @@
   //Add vanilla UI elements
   {
     "op" : "add",
-    "path" : "/paneLayout/lblLiqTab",
+    "path" : "/paneLayout/lblSmeltTab",
     "value" : {
       "type" : "image",
-      "file" : "/interface/crafting/tabicon_liquid.png",
+      "file" : "/interface/crafting/tabicon_smelt.png",
       "position" : [76, 223],
+      "zlevel" : 3
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/paneLayout/lblCoalesceTab",
+    "value" : {
+      "type" : "image",
+      "file" : "/interface/crafting/tabicon_coalesce.png",
+      "position" : [114, 223],
       "zlevel" : 3
     }
   },
@@ -15,10 +25,22 @@
     "path" : "/paneLayout/categories/buttons/-",
     "value" : {
       "position" : [72, 221],
-      "baseImage" : "/interface/crafting/unselectedTab.png",
-      "baseImageChecked" : "/interface/crafting/selectedTab.png",
+      "baseImage" : "/interface/crafting/unselectedTab-wider.png",
+      "baseImageChecked" : "/interface/crafting/selectedTab-wider.png",
       "data" : {
-        "filter" : [ "liquids" ]
+        "filter" : [ "smelt" ]
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/paneLayout/categories/buttons/-",
+    "value" : {
+      "position" : [110, 221],
+      "baseImage" : "/interface/crafting/unselectedTab-wider.png",
+      "baseImageChecked" : "/interface/crafting/selectedTab-wider.png",
+      "data" : {
+        "filter" : [ "coalesce" ]
       }
     }
   }
