@@ -36,7 +36,7 @@
     "op" : "add",
     "path" : "/paneLayout/categories/buttons/-",
     "value" : {
-      "position" : [111, 221],
+      "position" : [115, 221],
       "baseImage" : "/interface/crafting/unselectedTab-wider.png",
       "baseImageChecked" : "/interface/crafting/selectedTab-wider.png",
       "data" : {
