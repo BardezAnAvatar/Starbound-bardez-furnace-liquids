@@ -6,4 +6,5 @@ This repo is a mod for [Starbound](https://playstarbound.com/). It is a useless 
 - [Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149)
 
 This mod does the following:
-- [ ] Adds a tab to the atomic furnace for molten liquids to and from their solid states
+- [ ] Adds a tab to the atomic furnace for smelting molten liquids from bars
+- [ ] Adds a tab to the atomic furnace for coalescing molten liquids to their refined bars
