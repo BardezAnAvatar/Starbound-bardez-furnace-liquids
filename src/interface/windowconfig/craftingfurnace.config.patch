@@ -1,0 +1,25 @@
+[
+  //Add vanilla UI elements
+  {
+    "op" : "add",
+    "path" : "/paneLayout/lblLiqTab",
+    "value" : {
+      "type" : "image",
+      "file" : "/interface/crafting/tabicon_liquid.png",
+      "position" : [76, 221], //two lower than 223 because the image is larger
+      "zlevel" : 3
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/paneLayout/categories/buttons/-",
+    "value" : {
+      "position" : [72, 221],
+      "baseImage" : "/interface/crafting/unselectedTab.png",
+      "baseImageChecked" : "/interface/crafting/selectedTab.png",
+      "data" : {
+        "filter" : [ "liquids" ]
+      }
+    }
+  }
+]
