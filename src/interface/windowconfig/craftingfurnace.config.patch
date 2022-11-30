@@ -6,7 +6,7 @@
     "value" : {
       "type" : "image",
       "file" : "/interface/crafting/tabicon_liquid.png",
-      "position" : [76, 223],
+      "position" : [76, 297],
       "zlevel" : 3
     }
   },
@@ -14,22 +14,12 @@
     "op" : "add",
     "path" : "/paneLayout/categories/buttons/-",
     "value" : {
-      "position" : [72, 221],
+      "position" : [72, 295],
       "baseImage" : "/interface/crafting/unselectedTab.png",
       "baseImageChecked" : "/interface/crafting/selectedTab.png",
       "data" : {
-        "filter" : [ "liquids" ]
+        "filter" : [ "bars", "ingredients" ]
       }
     }
   }
-
-  //patch them again if needed for Extended GUI
-  ,[
-    { "op": "test", "path": "/paneLayout/lblMatTab/position/1", "value": 297}, //extended GUI
-    { "op": "replace", "path": "/paneLayout/lblLiqTab/position/1", "value": 297} //replace with E-GUI value
-  ],
-  [
-    { "op": "test", "path": "/paneLayout/categories/buttons/0/position/1", "value": 295}, //extended GUI
-    { "op": "replace", "path": "/paneLayout/categories/buttons/2/position/1", "value": 295} //replace with E-GUI value
-  ]
 ]
